@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    padding: 0;
+}
+section {
+    height: 100vh;
+    width: 100vm;
+}
+#welcome-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 139, 189);
+    
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 102%;
+    height: 10%;
+    justify-content: flex-end;
+    gap: 10px;
+    background-color: black;
+    
+}
+
+h1{
+    color:black;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+a{
+    color: white;
+    font-size: .3;
+}
+a:hover{
+    background-color: rgb(30, 34, 150);
+}
+#nav-list{
+    display: flex;
+    flex-direction: row;
+}
+#welcome-section > p{
+color: black;
+font-size: 2rem;
+font-style: italic;
+font-weight: 100;
+}
+.projects{
+    text-align: center;
+    background-color: rgb(30, 34, 150);
+    padding: 8rem 2rem;
+}
+ h2{
+    font-size: 3.2rem;
+    color: white;
+}
+.project-img{
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+.project-tile{
+    color: white;
+    width: 100%;
+    background-color: blue;
+    margin: 0;
+    padding: 2rem 0;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+#contact {
+    background-color: rgb(30, 34, 150);
+    width: 100%;
+    height: 80vh;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact-p{
+    color: white;
+    font-style: italic;
+    font-family: 100;
+    text-align: center;
+    font-size: 1.7rem;
+}
