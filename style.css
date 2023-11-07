@@ -21,7 +21,7 @@ section {
     position: fixed;
     top: 0;
     display: flex;
-    width: 102%;
+    width: 100%;
     height: 10%;
     justify-content: flex-end;
     gap: 10px;
@@ -62,9 +62,10 @@ font-weight: 100;
     color: white;
 }
 .project-img{
-    height: calc(100% - 6.8rem);
+    height: 75%;
     width: 100%;
     object-fit: cover;
+    
 }
 .project-tile{
     color: white;
